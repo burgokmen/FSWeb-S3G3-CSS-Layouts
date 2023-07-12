@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
-  border: 1px solid rgb(112, 66, 25);
-  background-color: rgb(102, 110, 117);
+  border: 1px solid rgb(112, 25, 25);
+  background-color: rgba(207, 202, 38, 0.688);
 }
+
 body {
-  margin: 0;
-  padding: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 .container {
@@ -13,17 +13,25 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1rem;
 }
 
 p {
   font-size: 2rem;
   margin-left: 3rem;
+  font-family: "Pacifico", cursive;
 }
 
 nav a {
   padding: 0.5rem 1rem;
-  border: 0.1rem solid rgb(35, 150, 138);
+  border: 0.15rem solid rgb(112, 25, 25);
   text-decoration: none;
   color: rgb(22, 2, 2);
   margin-right: 1rem;
+}
+
+#Hakk1 {
+  background-color: rgb(112, 25, 25);
+  color: aliceblue;
+  border: rgb(112, 25, 25);
 }
