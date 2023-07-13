@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
   border: 1px solid rgb(112, 25, 25);
-  background-color: rgba(207, 202, 38, 0.688);
 }
 
 body {
   font-family: "Raleway", sans-serif;
+  background-color: rgba(207, 202, 38, 0.688);
 }
 
 .container {
@@ -33,5 +33,16 @@ nav a {
 #Hakk1 {
   background-color: rgb(112, 25, 25);
   color: aliceblue;
-  border: rgb(112, 25, 25);
+}
+#Cont1 {
+  background-color: rgb(112, 25, 25);
+  color: aliceblue;
+}
+#Proj1 {
+  background-color: rgb(112, 25, 25);
+  color: aliceblue;
+}
+#Main1 {
+  background-color: rgb(112, 25, 25);
+  color: aliceblue;
 }
