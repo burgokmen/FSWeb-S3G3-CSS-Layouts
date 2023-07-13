@@ -1,7 +1,7 @@
-/* * {
+* {
   box-sizing: border-box;
   border: 1px solid red;
-} */
+}
 
 body {
   font-family: "Raleway", sans-serif;
@@ -104,25 +104,6 @@ nav a:hover {
   width: 30%;
 }
 
-/*
-.container-t .container-h5-1 {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.container-t .container-img-2 {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.container-t .container-h5-2 {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
-}
-*/
-
 footer .container {
   flex-direction: column;
   align-items: center;
@@ -134,4 +115,33 @@ footer .container {
 
 footer {
   margin-top: auto;
+}
+
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 500px) {
+  .text-over-pic h3 {
+    font-size: 2rem;
+  }
+  .button-s {
+    font-size: 1rem;
+  }
+  .container {
+    flex-flow: column wrap;
+    align-items: flex-start;
+  }
+
+  .container-img-1 {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .container-img-1 .card2 {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-end;
+  }
 }
