@@ -1,5 +1,7 @@
-* {
-}
+/* * {
+  box-sizing: border-box;
+  border: 1px solid red;
+} */
 
 body {
   font-family: "Raleway", sans-serif;
@@ -20,7 +22,7 @@ body {
 
 h3 {
   font-size: 2rem;
-  margin-left: 3rem;
+  margin: 0 1.5rem;
   font-family: "Pacifico", cursive;
   color: rgb(227, 130, 19);
 }
@@ -92,15 +94,34 @@ nav a:hover {
   padding: 0.3rem;
 }
 
-.container-t {
+.container-img-1 {
   display: flex;
+  justify-content: space-around;
+
+  padding: 0.5rem;
+}
+.card {
+  width: 30%;
 }
 
-.container-t img {
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+/*
+.container-t .container-h5-1 {
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
+.container-t .container-img-2 {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-t .container-h5-2 {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+*/
 
 footer .container {
   flex-direction: column;
