@@ -1,11 +1,9 @@
 * {
-  box-sizing: border-box;
-  border: 1px solid rgb(112, 25, 25);
 }
 
 body {
   font-family: "Raleway", sans-serif;
-  background-color: rgba(207, 202, 38, 0.688);
+  background-color: rgba(48, 142, 186, 0.779);
 }
 
 .container {
@@ -13,36 +11,74 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1rem;
+  padding-top: 1rem;
+  background-color: rgba(48, 142, 186, 0.779);
 }
 
-p {
+h3 {
   font-size: 2rem;
   margin-left: 3rem;
   font-family: "Pacifico", cursive;
+  color: rgb(227, 130, 19);
 }
 
 nav a {
   padding: 0.5rem 1rem;
-  border: 0.15rem solid rgb(112, 25, 25);
+  border: 0.15rem solid rgb(227, 130, 19);
   text-decoration: none;
   color: rgb(22, 2, 2);
   margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+nav a:hover {
+  background-color: rgb(227, 130, 19);
 }
 
 #Hakk1 {
-  background-color: rgb(112, 25, 25);
+  background-color: rgb(227, 130, 19);
   color: aliceblue;
 }
 #Cont1 {
-  background-color: rgb(112, 25, 25);
+  background-color: rgb(227, 130, 19);
   color: aliceblue;
 }
 #Proj1 {
-  background-color: rgb(112, 25, 25);
+  background-color: rgb(227, 130, 19);
   color: aliceblue;
 }
 #Main1 {
-  background-color: rgb(112, 25, 25);
+  background-color: rgb(227, 130, 19);
+  color: aliceblue;
+}
+
+.text-over-pic {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  margin: 2rem auto;
+}
+.text-over-pic img {
+  width: 75%;
+  border: 3px solid black;
+  border-radius: 1rem;
+}
+.text-over-pic .just1 {
+  color: rgb(227, 130, 19);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-over-pic h3 {
+  font-size: 5rem;
+}
+
+.text-over-pic button {
+  font-size: 2rem;
+  background-color: rgb(227, 130, 19);
+  border: none;
+  border-radius: 1rem;
   color: aliceblue;
 }
