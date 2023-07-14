@@ -112,9 +112,22 @@ footer .container {
   background-color: rgb(178, 208, 222);
   padding-bottom: 1rem;
 }
+.container-t {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.container-t .card2 {
+  text-align: center;
+}
 
 footer {
   margin-top: auto;
+}
+
+nav {
+  text-align: center;
 }
 
 @media screen and (max-width: 800px) {
@@ -126,22 +139,28 @@ footer {
   .button-s {
     font-size: 1rem;
   }
+
+  .container-t .card {
+    flex-basis: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .card img {
+    max-width: 50%;
+  }
+  .card .card2 {
+    flex-basis: 50%;
+  }
   .container {
-    flex-flow: column wrap;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
   }
 
-  .container-img-1 {
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .container-img-1 .card2 {
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    align-items: flex-end;
+  nav a {
+    display: block;
+    margin-right: 0rem;
+    margin-top: 0.5rem;
   }
 }
