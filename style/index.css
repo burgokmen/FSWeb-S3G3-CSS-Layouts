@@ -131,6 +131,11 @@ nav {
 }
 
 @media screen and (max-width: 800px) {
+  nav a {
+    display: block;
+    margin-right: 0rem;
+    margin-top: 0.5rem;
+  }
 }
 @media screen and (max-width: 500px) {
   .text-over-pic h3 {
